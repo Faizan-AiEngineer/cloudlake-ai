@@ -1,0 +1,8 @@
+{
+  "blocked_run": "b0434e335a2c4abaae41c34cab9a3a43",
+  "blocked": true,
+  "rejected_rows": 1356,
+  "publication_preserved": true,
+  "published_run": "0b1e554258b8412197647aa0103f03e3",
+  "late_records_flagged_in_successful_incremental_run": 669
+}

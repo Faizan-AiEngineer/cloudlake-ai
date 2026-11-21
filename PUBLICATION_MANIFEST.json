@@ -1,0 +1,655 @@
+{
+  "files": 130,
+  "entries": [
+    {
+      "path": ".dockerignore",
+      "bytes": 67,
+      "sha256": "a49eac5e83b4f628e942ed5edea5c3d6069e3972edc51865af936f64339e7646"
+    },
+    {
+      "path": ".env.example",
+      "bytes": 213,
+      "sha256": "db3ca7b90c79d55743b81ac730144ab5d885175087d5784aa266a842d374cb7d"
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "bytes": 1676,
+      "sha256": "ab9e14e614cb643c72af9a7a3e131628acc6e672723a4f64bac19bca00c0c45c"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 361,
+      "sha256": "448346a6215cdcff4404e1a2587f8adef8f683293b09750347ed039cf9c1844f"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "bytes": 478,
+      "sha256": "1fde12787ae40b83c2b1ca2781aba927f576702fca65bed90d974428b7ca90a6"
+    },
+    {
+      "path": "Makefile",
+      "bytes": 370,
+      "sha256": "b666109973c96c895a0fea95d5d7269842af915bb97c991ccf66fc16875d523c"
+    },
+    {
+      "path": "PROJECT_STATUS.md",
+      "bytes": 15922,
+      "sha256": "1ed42e9ac80fb400174a9236276191b3d79ee1be0de62c0ae7d82c60649f41db"
+    },
+    {
+      "path": "README.md",
+      "bytes": 6558,
+      "sha256": "605b88bfbf39f18441666fc8ba5702ddde93e333ed6b675f66d5bd9c4bf414be"
+    },
+    {
+      "path": "aws/athena_queries/daily_sales.sql",
+      "bytes": 153,
+      "sha256": "84e5b1337a4e7b575071051dd88041cbedf0d1a5f455bccfa87befebc0f159fb"
+    },
+    {
+      "path": "aws/glue_jobs/lakehouse.py",
+      "bytes": 5060,
+      "sha256": "ae07393388f91683846168625dcb29920587e9347794caf74c2b358c4dfc679b"
+    },
+    {
+      "path": "aws/lambda_functions/trigger.py",
+      "bytes": 1287,
+      "sha256": "818fac59e8102abc85593a758e547321436216d31f6d8d863ed3ef970a6de543"
+    },
+    {
+      "path": "backend/Dockerfile",
+      "bytes": 568,
+      "sha256": "eddd3f22c22ddd7a515940b7d153f6eb59084302dbf9f784dbbcaa300f8b7186"
+    },
+    {
+      "path": "backend/app/assistant.py",
+      "bytes": 10117,
+      "sha256": "17f512450f553c94c0cadddd5a7927721a8d1f890a4a9958e4bb642b861c551e"
+    },
+    {
+      "path": "backend/app/config.py",
+      "bytes": 988,
+      "sha256": "94881de67ec6e43584d888b9b4e0122d02b04097d978e6d7ab365ef5c51902de"
+    },
+    {
+      "path": "backend/app/database.py",
+      "bytes": 4963,
+      "sha256": "351bc73b9e637961eb7750dcd80f0163b078aa938849e4b17f70bbc51aa38db5"
+    },
+    {
+      "path": "backend/app/lakehouse.py",
+      "bytes": 3567,
+      "sha256": "872060bada09752d7e7dcc4fb638d6ced5500098b2e49d172a61d143a26a7c9a"
+    },
+    {
+      "path": "backend/app/main.py",
+      "bytes": 3458,
+      "sha256": "4df00d1e1120711ea181b9ad146d6757209aab8bdd979e4eccab4489f2474b87"
+    },
+    {
+      "path": "backend/app/operations.py",
+      "bytes": 14614,
+      "sha256": "0d46edf9cae077e875cbd2d85bb72af750198668e91887a1d25cdb6468f44f38"
+    },
+    {
+      "path": "backend/app/reports.py",
+      "bytes": 13166,
+      "sha256": "1da599c41262abcaad6401220cb30a2964e4bd5f51b4e006d30b943a52465834"
+    },
+    {
+      "path": "backend/app/request_limits.py",
+      "bytes": 1598,
+      "sha256": "97aea95c955c376c045535672077b098f49ee3fee5a40cac7fd0f3c457e41372"
+    },
+    {
+      "path": "backend/migrations/env.py",
+      "bytes": 232,
+      "sha256": "7159168318ed3400789da7e9bd96ba6ec6fe7e402c2a65b3ed157c834266f495"
+    },
+    {
+      "path": "backend/migrations/versions/0001_initial.py",
+      "bytes": 5362,
+      "sha256": "971100844c9236520b696bf9d4eca7400ec2791abdd62aafcbaf3505e3012f7d"
+    },
+    {
+      "path": "backend/requirements-dev.txt",
+      "bytes": 42,
+      "sha256": "c2cf607828959d469f418c03e29cb5c7a55e1ef42e8488292d20567720bd14b3"
+    },
+    {
+      "path": "backend/requirements-infra.txt",
+      "bytes": 89,
+      "sha256": "2a864b63099da174013c29b4a3bb796a0a69dad777d0bc653a8ab114314a0d89"
+    },
+    {
+      "path": "backend/requirements-qa.txt",
+      "bytes": 50,
+      "sha256": "8edc0ae6c43aa1be3a180a7ffd7b401d65bef4ba8b886b4c385c4dd9da76d485"
+    },
+    {
+      "path": "backend/requirements-spark.txt",
+      "bytes": 29,
+      "sha256": "af61984e4a5dc752f68f953a004a34b696344a822050bde41f20110c205ae6d2"
+    },
+    {
+      "path": "backend/requirements.txt",
+      "bytes": 199,
+      "sha256": "4e6ff0e0174895dacf408092e21513dfd713a06476ece0dd41fbe64ea49092c4"
+    },
+    {
+      "path": "backend/tests/test_aws_adapters.py",
+      "bytes": 1875,
+      "sha256": "2fd9e41373333a12a5960e93aace51b6936cc34b9b267429982497fcd6ad226a"
+    },
+    {
+      "path": "backend/tests/test_boundaries.py",
+      "bytes": 6752,
+      "sha256": "9a81a020d3f473ec409e34262f63bdd7555cd5cedc99f11bfd6b862ce1593523"
+    },
+    {
+      "path": "backend/tests/test_generator.py",
+      "bytes": 1447,
+      "sha256": "9d9fd91ecf97451cec4098dc6d614e9a63d347a90bba0e027f530023d50667a3"
+    },
+    {
+      "path": "backend/tests/test_ingest.py",
+      "bytes": 1030,
+      "sha256": "1ba5ec03d7a56b39dbdde99082aedf442acbeaa939cf06863d5c283d54d13a63"
+    },
+    {
+      "path": "backend/tests/test_system.py",
+      "bytes": 866,
+      "sha256": "5870b99b389cfcf879c9b9483a3671bc64b2f2151f89034512165aa54f3b12fd"
+    },
+    {
+      "path": "data_engineering/cli.py",
+      "bytes": 5044,
+      "sha256": "e0dc0012770f4fec3b17256102fc05e9faa0c3e8478fe43019e10bb6b5c7a4f1"
+    },
+    {
+      "path": "data_engineering/generate.py",
+      "bytes": 9450,
+      "sha256": "80ff416a6bfe34d047645b24e5e7bab645da39878b95c4f019a635971cfb6b37"
+    },
+    {
+      "path": "data_engineering/gold.py",
+      "bytes": 10225,
+      "sha256": "4a72794bfd4bb8349b2eee7bb2390cc8a7123dbeff08fe71150364ed62a6ec2a"
+    },
+    {
+      "path": "data_engineering/iceberg.py",
+      "bytes": 1396,
+      "sha256": "7ed6b0655901666483be01f304224d173dd7e113313e0fa98aa02e14b220418c"
+    },
+    {
+      "path": "data_engineering/iceberg_io.py",
+      "bytes": 570,
+      "sha256": "de02f9e89e369545ae147e56effcbb9d6c7bc92820a88f41490dfd5a62886367"
+    },
+    {
+      "path": "data_engineering/ingest.py",
+      "bytes": 7322,
+      "sha256": "125820b9a40751c94e02c155b7ecf46e5c694384aece8ae484c76ad8d65faa87"
+    },
+    {
+      "path": "data_engineering/monitor.py",
+      "bytes": 2107,
+      "sha256": "877b1d359a1d0fb7de839b07817627a7afb52e2afdec3858558bc386bed1183a"
+    },
+    {
+      "path": "data_engineering/pipeline.py",
+      "bytes": 8260,
+      "sha256": "a87c2149b74d3f2c7dafc8ee3e7ab4dfdd40c4223b47cd836a84dbcc22583afb"
+    },
+    {
+      "path": "data_engineering/rules.py",
+      "bytes": 4310,
+      "sha256": "346197cd7efa773e50d6e3995c3a0b669b41ee7365a3c239b930573599ed90b6"
+    },
+    {
+      "path": "data_engineering/schema.py",
+      "bytes": 2845,
+      "sha256": "9643466090964c205b6ae448f814023159840c289122d4a76e3d0493a4cbdef9"
+    },
+    {
+      "path": "data_engineering/silver.py",
+      "bytes": 4824,
+      "sha256": "a4968dd5b97a74af0212eb061386e8f1924c72cde21278073db8f6221583891f"
+    },
+    {
+      "path": "data_engineering/spark_runtime.py",
+      "bytes": 746,
+      "sha256": "80250f07b8cb4bc72168f6a0f1a0cab5e8ce462ddda2fbc358e77afce553eef5"
+    },
+    {
+      "path": "docker-compose.yml",
+      "bytes": 976,
+      "sha256": "a12c5f1e903f992170cb98088d9e56ec9b8c5dd2b9fd2bc47913677c1f785616"
+    },
+    {
+      "path": "docs/API_REFERENCE.md",
+      "bytes": 2611,
+      "sha256": "a0e6d7d1a5ff16b1c5457d119d811635a84777c12d644480474f1b303fc4de72"
+    },
+    {
+      "path": "docs/ARCHITECTURE.md",
+      "bytes": 4894,
+      "sha256": "d935ab24fede84cc79fe604bbb78bbf86d28d85503a1042fc22223498dfcde28"
+    },
+    {
+      "path": "docs/AWS_DEPLOYMENT.md",
+      "bytes": 2262,
+      "sha256": "3cfb2b5354b6216b48a91b065401326c5ed8eed469e4e70638bf513d7a795f8d"
+    },
+    {
+      "path": "docs/BENCHMARKS.md",
+      "bytes": 2853,
+      "sha256": "44a74c0520b2616fb1b1d7a1922047b521316e45912e27188f1ff0c0c3b4bdd1"
+    },
+    {
+      "path": "docs/CASE_STUDY.md",
+      "bytes": 1873,
+      "sha256": "bd8d3b995a828715b7f521ddcabce027486ef64ea0d39e0d4851ed92f29fb904"
+    },
+    {
+      "path": "docs/CONTRIBUTION_GUIDELINES.md",
+      "bytes": 683,
+      "sha256": "de1de9827d14f4fd08b495cc2d6c16039fb7fc8f876014e5773931b63e92311c"
+    },
+    {
+      "path": "docs/COST_ESTIMATION.md",
+      "bytes": 1721,
+      "sha256": "89a374c068c12b9087bd45e7284987301c1d0ded25ca551edd49765314ae93ae"
+    },
+    {
+      "path": "docs/DATA_DICTIONARY.md",
+      "bytes": 2075,
+      "sha256": "f895e61e65f06d24d1eeba45cfed2260cf742e4c6ea4db6f0f056b10d9a127e9"
+    },
+    {
+      "path": "docs/DATA_LINEAGE.md",
+      "bytes": 1070,
+      "sha256": "76289b38c54ce15ceba14332b4cf138f6e8a1d9b9c826b74df1cb7dd630a9885"
+    },
+    {
+      "path": "docs/FINAL_DELIVERY.md",
+      "bytes": 11078,
+      "sha256": "9f38aa6b7d17209a9a2ff8d26d746d9430a369336231a10e7b299ce219baede3"
+    },
+    {
+      "path": "docs/IMPLEMENTATION_PLAN.md",
+      "bytes": 2422,
+      "sha256": "b88472c6417b08717f9827b3df4964d8173ba3f21716754702911abab3f78744"
+    },
+    {
+      "path": "docs/METRIC_DEFINITIONS.md",
+      "bytes": 1944,
+      "sha256": "fa9e93c975d4020f012d8d2085bfdee96eaa138e8e5598b02ead6d55974d50ac"
+    },
+    {
+      "path": "docs/PORTFOLIO_MATERIALS.md",
+      "bytes": 5886,
+      "sha256": "8f245a1f147221444bd279d643a50cc6365e172f4a824ecb086bf09330d3ccc6"
+    },
+    {
+      "path": "docs/PUBLICATION_CHECKLIST.md",
+      "bytes": 1616,
+      "sha256": "6ef88bdbd712866fb42d77f0521fc4daec43766b47a1447ea347a401039bf89e"
+    },
+    {
+      "path": "docs/QUICKSTART.md",
+      "bytes": 3526,
+      "sha256": "9bf20fd1be5983600921a253adf4f1e7046f8100304d20c38637fe6d8651ffbf"
+    },
+    {
+      "path": "docs/SECURITY.md",
+      "bytes": 1339,
+      "sha256": "e9e95a11af93968907b0cc50319f1da8cfe926c7c57f2fc069a65f64e0d43a61"
+    },
+    {
+      "path": "docs/TECHNOLOGY_DECISIONS.md",
+      "bytes": 2142,
+      "sha256": "a8430e59b1dc3fc6bc78346f26099f619f28cff632e075262f58243a1e31abcf"
+    },
+    {
+      "path": "docs/TROUBLESHOOTING.md",
+      "bytes": 1698,
+      "sha256": "6fecde98ec0778c1800296e6821cef26477551eb2b5d6119245422a997f10154"
+    },
+    {
+      "path": "docs/sample-cloudlake-report.csv",
+      "bytes": 3989,
+      "sha256": "7b2744ffcce9697541b52e6cea1412d6bac601996be1f661db1a577323f09bcc"
+    },
+    {
+      "path": "docs/sample-cloudlake-report.pdf",
+      "bytes": 6295,
+      "sha256": "5c573c5d5dc5db5c1b0445af7f08fa91b8f87093c092d941fc2980e25c55958f"
+    },
+    {
+      "path": "docs/sample-cloudlake-report.xlsx",
+      "bytes": 9496,
+      "sha256": "fd1d5ebd7338401c75c0ea492456c1aafee4c73da0c41710e087f74ebf4b750b"
+    },
+    {
+      "path": "docs/screenshots/01-executive-overview.png",
+      "bytes": 128961,
+      "sha256": "1f928db2556e163eb5ef7b24b4e501f8429bc2c4d8771bb165d97d4e9a6937d8"
+    },
+    {
+      "path": "docs/screenshots/02-data-sources.png",
+      "bytes": 98282,
+      "sha256": "875e1682952e6a612a1c5cf303d56580861b9a628e359eb4ed4d094b9b0516e1"
+    },
+    {
+      "path": "docs/screenshots/03-lakehouse-explorer.png",
+      "bytes": 142223,
+      "sha256": "bcda92f66e0fb6d9b4854817bad4fd8208031149505a903fb65be897654a6639"
+    },
+    {
+      "path": "docs/screenshots/04-pipeline-timeline.png",
+      "bytes": 99741,
+      "sha256": "69215fa0ff831fde2edee357afd07fb55c6a3573a7706b388115d887b3a104fd"
+    },
+    {
+      "path": "docs/screenshots/05-data-quality.png",
+      "bytes": 272877,
+      "sha256": "4332fc87060451b2119dbb52fdb9f9f076c5d80da6bc2acb0d50409c943ab798"
+    },
+    {
+      "path": "docs/screenshots/06-data-lineage.png",
+      "bytes": 140227,
+      "sha256": "5451a37c4f3e3c15532afb8ce36637bf6ea53ca152696ed551996dbfaf74c67f"
+    },
+    {
+      "path": "docs/screenshots/07-business-analytics.png",
+      "bytes": 160517,
+      "sha256": "e789d9b143f68007d05001efa1959c976c2e6750cafdcaa0f434a8f402ad475b"
+    },
+    {
+      "path": "docs/screenshots/08-operations-assistant.png",
+      "bytes": 71370,
+      "sha256": "a100f67f318ce55381b93c4cae30a2754fd8d74ffc3f3ff6353c2b80580fdc70"
+    },
+    {
+      "path": "docs/screenshots/09-cloud-infrastructure.png",
+      "bytes": 91272,
+      "sha256": "efd17d77ec34c7cda2ffa41c08a73b55f14401f13868d03b6bac5641bfd4a392"
+    },
+    {
+      "path": "docs/screenshots/10-generated-report.png",
+      "bytes": 113740,
+      "sha256": "deb02f754b12c1586ffab14784419635b3a1a09689a0ef74af508835e56ef321"
+    },
+    {
+      "path": "evaluation/reports/BENCHMARK_REPORT.md",
+      "bytes": 2111,
+      "sha256": "a3ca4d92d8a70c96c8ed65d92d8e21051286c5ad584607a074fd93ecf714c079"
+    },
+    {
+      "path": "evaluation/reports/figures/batch-throughput.svg",
+      "bytes": 4877,
+      "sha256": "1e2fa4808f265c2d2e339c31c462b40c2d347a993f4507fb78eede0358120c89"
+    },
+    {
+      "path": "evaluation/reports/figures/storage-efficiency.svg",
+      "bytes": 5480,
+      "sha256": "0b549952f9c760a9c6d3abeb2d484d5d34925f1a3514992c9b5e30b770a765b2"
+    },
+    {
+      "path": "evaluation/reports/methodology.md",
+      "bytes": 1782,
+      "sha256": "0059a23c499fe91cffc2e081d964c52126430732bfbaaae59b8a60e71f399a5a"
+    },
+    {
+      "path": "evaluation/results/anomaly_detection_results.csv",
+      "bytes": 208,
+      "sha256": "5899f3b4e4d55eecfebc6a76bd01211dec5c8f0a3149e1c9ba3fdff178b8a5c0"
+    },
+    {
+      "path": "evaluation/results/assistant_evaluation.json",
+      "bytes": 2392,
+      "sha256": "432fa8bf9d269c49e7d6f6550baa9dacf1e0d3f91f88867f1b310f606bcdf45c"
+    },
+    {
+      "path": "evaluation/results/batch_performance.csv",
+      "bytes": 504,
+      "sha256": "6ee5955d3c8531e2786612bdd0d1a5dd1c1873ad4f14ae5e8ea06d4e147dbf75"
+    },
+    {
+      "path": "evaluation/results/data_quality_results.csv",
+      "bytes": 625,
+      "sha256": "9889c25976708b7485d3e308bdc59dc75b92c0773b58c931751b9fe4fe69edd6"
+    },
+    {
+      "path": "evaluation/results/environment.json",
+      "bytes": 456,
+      "sha256": "8b1ac3e8c3a6c22c7afcc2a33cfbf00fef01c76c255a83f58002e312002e5bbd"
+    },
+    {
+      "path": "evaluation/results/final_audit_recheck.json",
+      "bytes": 3745,
+      "sha256": "269f5ca3d911f18852f0dc47117f76f91fe32b729fcee840f3fc9474bb7cbf1e"
+    },
+    {
+      "path": "evaluation/results/incremental_performance.csv",
+      "bytes": 645,
+      "sha256": "c53c063ebe40a58054a1026e965ca84660087d97a2d6b8e0154415839e344f4e"
+    },
+    {
+      "path": "evaluation/results/observed_revenue.svg",
+      "bytes": 9313,
+      "sha256": "6ab322bc5dd92e114a55219a2cf0e572a2dae5ab0f0f828f6d9d7ce390cb7e9b"
+    },
+    {
+      "path": "evaluation/results/query_performance.csv",
+      "bytes": 388,
+      "sha256": "bb329282fb85b7ada0dc51b4aecd31d6f5e6e20d87a675cf84ddb1b96b0e9572"
+    },
+    {
+      "path": "evaluation/results/reliability_followup.json",
+      "bytes": 255,
+      "sha256": "6f2740aad23ec7608aa80c87e3366ceb3516f121802d27655171fd7a4816ce51"
+    },
+    {
+      "path": "evaluation/results/reliability_results.json",
+      "bytes": 377,
+      "sha256": "09071641d2d136bd3c64e9ae3905a0ecf2d5fc18716b00e35f719dd1ce2b2b95"
+    },
+    {
+      "path": "evaluation/results/scale_performance.csv",
+      "bytes": 371,
+      "sha256": "5f9e81b45e30456ef6c68d4e56623d678290468137845c679f9e0aec786084d0"
+    },
+    {
+      "path": "evaluation/results/storage_efficiency.csv",
+      "bytes": 173,
+      "sha256": "7998d3d71fba2af347d7c310e89d18e45f4509c1818d8220f941c8fe310cf481"
+    },
+    {
+      "path": "evaluation/scripts/benchmark.py",
+      "bytes": 13549,
+      "sha256": "b0ea3765bfb9be01db1c00a1367bce084e30a644718f2f63b5377a2e37946d4d"
+    },
+    {
+      "path": "evaluation/scripts/figures.py",
+      "bytes": 2277,
+      "sha256": "634c7f8e3451872376fc8cadbba972136502c590180efcddd7b09906ba00c2bf"
+    },
+    {
+      "path": "evaluation/scripts/reliability_probe.py",
+      "bytes": 2223,
+      "sha256": "055db6e4a8b646ab878c5b943786eb2c21e775f2a1788ffd6846b7b3ef9f04f1"
+    },
+    {
+      "path": "evaluation/scripts/scale_probe.py",
+      "bytes": 1468,
+      "sha256": "ed6d3629c946590b45e881144005c21b29b9fb1a016ec68994a8d8211de55dfd"
+    },
+    {
+      "path": "frontend/.dockerignore",
+      "bytes": 20,
+      "sha256": "790e3169bc19b046fe55ba1da6d13b976c28363c8c00462a2195fe5faf260910"
+    },
+    {
+      "path": "frontend/Dockerfile",
+      "bytes": 234,
+      "sha256": "b02f8f02d47f518759c1743c2434a077a1d752b02f193babe5e9b52aa436e8fb"
+    },
+    {
+      "path": "frontend/index.html",
+      "bytes": 414,
+      "sha256": "782f95f49ab83abb73b6c958cf71bf283549cdaee7e2cc095c9abda7c61303c9"
+    },
+    {
+      "path": "frontend/nginx.conf",
+      "bytes": 154,
+      "sha256": "0cc2f240edda73c1dc7f53205232207353f290eb80d7dbb56ecb2f428dc2b56e"
+    },
+    {
+      "path": "frontend/package-lock.json",
+      "bytes": 122285,
+      "sha256": "83230be653a3e038a5313db214116f2cb9c9a2546522e653d6da5d641cb1cbe5"
+    },
+    {
+      "path": "frontend/package.json",
+      "bytes": 657,
+      "sha256": "da7ea70df22688d7217d23bdf2edb96bad57dcae82d0c213ff21ea13d80aa975"
+    },
+    {
+      "path": "frontend/postcss.config.cjs",
+      "bytes": 51,
+      "sha256": "a1ffc5455669b58867100de62db5a5331c59b5146aeec0b292b4abf0cda9036f"
+    },
+    {
+      "path": "frontend/public/cloudlake.svg",
+      "bytes": 320,
+      "sha256": "b3d024b319f58b9cfcbf330c68e162ff607a87163e4ccea1a28698bb6924faba"
+    },
+    {
+      "path": "frontend/src/App.tsx",
+      "bytes": 4331,
+      "sha256": "23921d00871962ae75b282438e2e4cddd99e7d2919f9fb2f01330c957b0d3d93"
+    },
+    {
+      "path": "frontend/src/api.test.ts",
+      "bytes": 982,
+      "sha256": "55c6e61a68babea0aaa74d2b44f9afdff03fb4715f55ed25ab72ddbdd3890ba1"
+    },
+    {
+      "path": "frontend/src/api.ts",
+      "bytes": 367,
+      "sha256": "f32570d5ee9810ba156d27e357927a050631a99d15232abefe296582526962c3"
+    },
+    {
+      "path": "frontend/src/components.tsx",
+      "bytes": 2931,
+      "sha256": "04f830223fb7207383e46732984a0dfc5ec182b9e6dfacfbe0e3a5f2c1a0fe66"
+    },
+    {
+      "path": "frontend/src/data-pages.tsx",
+      "bytes": 15460,
+      "sha256": "e54db4ce5dea0683fd1ca531cdba5034e0b8a83e5986654f1b98ea60ea4066b0"
+    },
+    {
+      "path": "frontend/src/main.tsx",
+      "bytes": 944,
+      "sha256": "4a56fac7089abbc781411d91b6f826f9ffb5d652e9914aa058ccafebe7212449"
+    },
+    {
+      "path": "frontend/src/ops-pages.tsx",
+      "bytes": 16318,
+      "sha256": "b1d7c2b1abc4b4a520e9fef46bbd29c12c1f99104329cc5adad0a6ee1973eb2c"
+    },
+    {
+      "path": "frontend/src/overview.tsx",
+      "bytes": 5781,
+      "sha256": "d30ed2f44c920cca9a26943a4addaf71c78ed702811f0b96201c41a24dae7d7b"
+    },
+    {
+      "path": "frontend/src/style.css",
+      "bytes": 12605,
+      "sha256": "faa4f1cb41df6a31ad8d751ad72778cd76337e3bf246d6cbd243b782e92cf21b"
+    },
+    {
+      "path": "frontend/tailwind.config.cjs",
+      "bytes": 94,
+      "sha256": "3ea1f5d49554db954e9776ca025e67a609c3bca8ab94012bb7b643954c49101f"
+    },
+    {
+      "path": "frontend/tsconfig.json",
+      "bytes": 328,
+      "sha256": "0e26061a5f17e16f3c673ae5c203141b5266fc5762d08e38efae50b16cbce3a7"
+    },
+    {
+      "path": "frontend/vite.config.ts",
+      "bytes": 267,
+      "sha256": "93b72b6340ca136c42bb1e723bc68eb2ae5afb019bb8c894eecb725bb67000d1"
+    },
+    {
+      "path": "infrastructure/terraform/.terraform.lock.hcl",
+      "bytes": 2482,
+      "sha256": "d4747493cdc75fc76065d3a916d3cca19d1ada39fc175de36a5ef8cc79f1fa1f"
+    },
+    {
+      "path": "infrastructure/terraform/iam.tf",
+      "bytes": 2756,
+      "sha256": "290058d7105f276b2858f36438db9fd2e6659e3cbf2e0ddaeaed2bebd2dfd84d"
+    },
+    {
+      "path": "infrastructure/terraform/main.tf",
+      "bytes": 8558,
+      "sha256": "6b8bde4ad0ee9fca42754a3746176df5169dadf164f850c03b558ed6df5fcc0a"
+    },
+    {
+      "path": "infrastructure/terraform/variables.tf",
+      "bytes": 720,
+      "sha256": "f5264783b5c383bd4f2e42edfe641ddddc9708b7d430d148d0ab258a20fda644"
+    },
+    {
+      "path": "infrastructure/terraform/versions.tf",
+      "bytes": 388,
+      "sha256": "31ccc377af1113135db45596203a03d34f1b3f8ad92eac385c62c84f082a7e99"
+    },
+    {
+      "path": "orchestration/dags/cloudlake.py",
+      "bytes": 3138,
+      "sha256": "e229da3ad0b53855bc4e53c5e0a27f7cee962795f20e3101fe57dda9806445b2"
+    },
+    {
+      "path": "orchestration/requirements.txt",
+      "bytes": 22,
+      "sha256": "9856a1af9d47aaa2a6c0915386b7367de4cc6a114902c734af845b928e24c056"
+    },
+    {
+      "path": "orchestration/tests/test_dags.py",
+      "bytes": 442,
+      "sha256": "949867693d73867e5a79cbf7f502c09d01944b0381e6989c99227eeb0bdfa9c5"
+    },
+    {
+      "path": "pyproject.toml",
+      "bytes": 265,
+      "sha256": "0ec70822d61774641e3e5f90c80f182fb0f90b6b97977a39ef4ea17abe525056"
+    },
+    {
+      "path": "sample_data/rates.json",
+      "bytes": 279,
+      "sha256": "7b96d2099e163602bb22f532449a3623226bf0c6ce75fa3b178e18e93ef0395a"
+    },
+    {
+      "path": "scripts/publication_manifest.py",
+      "bytes": 1677,
+      "sha256": "802c2c348d30317e9a539645fd6391d2db9b99b8271c1ccb9161a4353e593688"
+    },
+    {
+      "path": "scripts/start-local.ps1",
+      "bytes": 735,
+      "sha256": "4c0f396efc46ab0fd95f1c1a0f8c6fbb2796b4bd4e5178b3e70c9bf96ecbd7cf"
+    },
+    {
+      "path": "scripts/verify_demo.py",
+      "bytes": 9997,
+      "sha256": "6461a9d24325c89b12adc8143ac3f6b46b5400fe583b344cae800c9a0d64d167"
+    }
+  ]
+}

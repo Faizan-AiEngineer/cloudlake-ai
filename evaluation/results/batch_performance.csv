@@ -1,0 +1,3 @@
+profile,run_id,mode,status,input_records,new_records,accepted,rejected,duration_seconds,bronze_seconds,silver_seconds,gold_seconds,throughput_rows_per_second,output_bytes
+demo,996562740a044e1386ded2c05284f3e5,batch,successful,10594,10594,10594,0,69.49161040000035,1.9122520000091754,64.54475400000229,2.2759714999992866,152.450057482046,331908
+tiny_challenge,29617aa7cf744e8a9b925ac25f2aad38,batch,blocked,1048,1048,961,87,13.300508499989519,0.11979409999912605,12.93167540000286,,78.79397994451308,0

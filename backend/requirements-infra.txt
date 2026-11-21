@@ -1,0 +1,4 @@
+psycopg[binary]==3.2.10
+boto3==1.40.61
+pyiceberg[sql-sqlite]==0.10.0
+scikit-learn==1.7.2

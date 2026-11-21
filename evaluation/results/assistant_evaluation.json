@@ -1,0 +1,88 @@
+[
+  {
+    "question": "How has revenue changed this month?",
+    "expected_supported": true,
+    "correct": true,
+    "answer": "Revenue was USD 523.60 in January 2026 and USD 116,165.13 in December 2025, the two latest observed months.",
+    "evidence": [
+      {
+        "label": "Sales analytics",
+        "path": "/analytics"
+      }
+    ],
+    "actions": [],
+    "supported": true,
+    "confidence": "observed",
+    "provider": "offline"
+  },
+  {
+    "question": "Which dataset has the lowest quality score?",
+    "expected_supported": true,
+    "correct": true,
+    "answer": "clickstream has the lowest rule-check pass rate at 100.00%.",
+    "evidence": [
+      {
+        "label": "Quality results",
+        "path": "/quality"
+      }
+    ],
+    "actions": [],
+    "supported": true,
+    "confidence": "observed",
+    "provider": "offline"
+  },
+  {
+    "question": "Are there any stale datasets?",
+    "expected_supported": true,
+    "correct": true,
+    "answer": "All feeds were ingested within 36 hours.",
+    "evidence": [
+      {
+        "label": "Source inventory",
+        "path": "/sources"
+      }
+    ],
+    "actions": [],
+    "supported": true,
+    "confidence": "observed",
+    "provider": "offline"
+  },
+  {
+    "question": "How many records were rejected today?",
+    "expected_supported": true,
+    "correct": true,
+    "answer": "Pipeline runs started today (UTC) recorded 0 rejected rows.",
+    "evidence": [
+      {
+        "label": "Run history",
+        "path": "/pipelines"
+      }
+    ],
+    "actions": [],
+    "supported": true,
+    "confidence": "observed",
+    "provider": "offline"
+  },
+  {
+    "question": "Write a song about basketball.",
+    "expected_supported": false,
+    "correct": true,
+    "answer": "This question is outside the offline assistant's supported pipeline and analytics topics.",
+    "evidence": [],
+    "actions": [],
+    "supported": false,
+    "confidence": "unsupported",
+    "provider": "offline"
+  },
+  {
+    "question": "What is the weather in Tokyo?",
+    "expected_supported": false,
+    "correct": true,
+    "answer": "This question is outside the offline assistant's supported pipeline and analytics topics.",
+    "evidence": [],
+    "actions": [],
+    "supported": false,
+    "confidence": "unsupported",
+    "provider": "offline"
+  }
+]

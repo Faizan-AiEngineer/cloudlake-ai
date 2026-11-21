@@ -1,0 +1,102 @@
+section,row,field,value
+Pipeline runs,1,run_id,70d5a58fc0284d2ca8fcbb33c8903ea0
+Pipeline runs,1,mode,incremental
+Pipeline runs,1,status,successful
+Pipeline runs,1,processed,0
+Pipeline runs,1,rejected,0
+Pipeline runs,1,seconds,0.14
+Pipeline runs,2,run_id,da701ccd4b6d4771944520cdd83cf607
+Pipeline runs,2,mode,incremental
+Pipeline runs,2,status,successful
+Pipeline runs,2,processed,0
+Pipeline runs,2,rejected,0
+Pipeline runs,2,seconds,0.11
+Pipeline runs,3,run_id,b0434e335a2c4abaae41c34cab9a3a43
+Pipeline runs,3,mode,incremental
+Pipeline runs,3,status,blocked
+Pipeline runs,3,processed,13710
+Pipeline runs,3,rejected,1356
+Pipeline runs,3,seconds,123.88
+Quality totals by run,1,scope,Published snapshot
+Quality totals by run,1,run_id,0b1e554258b8412197647aa0103f03e3
+Quality totals by run,1,checks,72
+Quality totals by run,1,rule_evaluations,92192
+Quality totals by run,1,failed_rule_evaluations,0
+Quality totals by run,1,blocked_rules,0
+Quality totals by run,1,quarantined_rows,0
+Quality totals by run,2,scope,Blocked candidate
+Quality totals by run,2,run_id,b0434e335a2c4abaae41c34cab9a3a43
+Quality totals by run,2,checks,72
+Quality totals by run,2,rule_evaluations,109680
+Quality totals by run,2,failed_rule_evaluations,3027
+Quality totals by run,2,blocked_rules,10
+Quality totals by run,2,quarantined_rows,1356
+Operational alerts,1,alert_id,2
+Operational alerts,1,kind,quality_gate
+Operational alerts,1,status,open
+Operational alerts,1,severity,CRITICAL
+Operational alerts,1,run_id,b0434e335a2c4abaae41c34cab9a3a43
+Operational alerts,1,run_status,blocked
+Operational alerts,1,message,One or more critical rules exceeded the configured threshold
+Operational alerts,2,alert_id,1
+Operational alerts,2,kind,schema_drift
+Operational alerts,2,status,open
+Operational alerts,2,severity,WARNING
+Operational alerts,2,run_id,b0434e335a2c4abaae41c34cab9a3a43
+Operational alerts,2,run_status,blocked
+Operational alerts,2,message,Schema changed in products.
+Source datasets,1,dataset,clickstream
+Source datasets,1,journal_rows,2750
+Source datasets,1,schema_version,1
+Source datasets,2,dataset,customer_activity
+Source datasets,2,journal_rows,610
+Source datasets,2,schema_version,1
+Source datasets,3,dataset,customers
+Source datasets,3,journal_rows,1000
+Source datasets,3,schema_version,1
+Source datasets,4,dataset,inventory
+Source datasets,4,journal_rows,916
+Source datasets,4,schema_version,1
+Source datasets,5,dataset,order_items
+Source datasets,5,journal_rows,2855
+Source datasets,5,schema_version,1
+Source datasets,6,dataset,orders
+Source datasets,6,journal_rows,1570
+Source datasets,6,schema_version,1
+Source datasets,7,dataset,payments
+Source datasets,7,journal_rows,1570
+Source datasets,7,schema_version,1
+Source datasets,8,dataset,products
+Source datasets,8,journal_rows,250
+Source datasets,8,schema_version,1
+Source datasets,9,dataset,rates
+Source datasets,9,journal_rows,3
+Source datasets,9,schema_version,1
+Sales metrics,1,metric,revenue_usd
+Sales metrics,1,value,1360238.67
+Sales metrics,2,metric,gross_profit_usd
+Sales metrics,2,value,709061.62
+Sales metrics,3,metric,gross_margin
+Sales metrics,3,value,0.5213
+Sales metrics,4,metric,refunds_usd
+Sales metrics,4,value,112253.86
+Sales metrics,5,metric,orders
+Sales metrics,5,value,1378
+Sales metrics,6,metric,average_order_value
+Sales metrics,6,value,987.1108
+Sales metrics,7,metric,units
+Sales metrics,7,value,4061
+Sales metrics,8,metric,customers
+Sales metrics,8,value,739
+Sales metrics,9,metric,repeat_rate
+Sales metrics,9,value,0.5453
+Sales metrics,10,metric,return_rate
+Sales metrics,10,value,0.0771
+Infrastructure,1,component,Local metadata
+Infrastructure,1,status,sqlite
+Infrastructure,2,component,AWS data plane
+Infrastructure,2,status,Configuration prepared. Deployment unverified.
+Infrastructure,3,component,Bundled demo data
+Infrastructure,3,status,Seeded synthetic commerce and an illustrative FX fixture
+Infrastructure,4,component,Local incremental mode
+Infrastructure,4,status,Changed inputs rebuild Silver and Gold snapshots

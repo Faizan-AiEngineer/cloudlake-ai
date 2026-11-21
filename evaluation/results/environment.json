@@ -1,0 +1,19 @@
+{
+  "recorded_at": "2026-11-21T07:37:34.669+00:00",
+  "system": "Windows-11-10.0.26100-SP0",
+  "architecture": "AMD64",
+  "logical_processors": 4,
+  "python": "3.13.2",
+  "dependencies": {
+    "pyspark": "4.0.1",
+    "duckdb": "1.5.6",
+    "pyarrow": "22.0.0",
+    "sqlalchemy": "2.1.9",
+    "pydantic": "2.14.4",
+    "scikit-learn": "1.7.2"
+  },
+  "seed": 42,
+  "profile": "demo",
+  "baseline_reused": true,
+  "timing_repetitions": 1
+}

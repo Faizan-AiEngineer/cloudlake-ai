@@ -1,0 +1,5 @@
+**
+!backend/**
+!data_engineering/**
+!sample_data/**
+**/__pycache__

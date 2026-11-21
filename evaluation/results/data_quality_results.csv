@@ -1,0 +1,10 @@
+defect,dataset,status,tp,fp,fn,tn,precision,recall,f1
+missing_value,customers,measured,1,0,0,99,1.0,1.0,1.0
+duplicate_record,customers,measured,1,0,0,99,1.0,1.0,1.0
+invalid_timestamp,orders,measured,1,0,0,141,1.0,1.0,1.0
+negative_quantity,order_items,measured,1,0,0,246,1.0,1.0,1.0
+invalid_foreign_key,inventory,measured,1,14,0,68,0.06666666666666667,1.0,0.125
+schema_drift,products,measured,1,0,0,24,1.0,1.0,1.0
+incorrect_total,order_items,measured,1,1,0,245,0.5,1.0,0.6666666666666666
+late_arrival,clickstream,outside quarantine evaluation,,,,,,,
+statistical_anomaly,payments,outside quarantine evaluation,,,,,,,

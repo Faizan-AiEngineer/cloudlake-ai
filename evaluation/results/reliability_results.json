@@ -1,0 +1,9 @@
+{
+  "unchanged_source_noop": true,
+  "batch_replay_reconciles_after_incremental": true,
+  "critical_gate_blocked": true,
+  "interrupted_process_recovery": "not run",
+  "late_arrival_retention": "incremental source times overlap test window; labeled lateness not separately asserted",
+  "baseline_revenue_usd": "1215013.42",
+  "incremental_revenue_usd": "1360238.67"
+}

@@ -1,0 +1,2 @@
+profile,run_id,mode,status,input_records,new_records,accepted,rejected,duration_seconds,bronze_seconds,silver_seconds,gold_seconds,throughput_rows_per_second,output_bytes,reconciled
+standard,813bb30f2f2e43c88d6af7d1930a73b4,batch,successful,105683,105683,105683,0,203.5252231999766,12.292748700012453,187.98450400002184,2.601646199997049,519.2624203446256,3070350,True

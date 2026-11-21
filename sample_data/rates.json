@@ -1,0 +1,5 @@
+[
+  {"currency":"USD","usd_per_unit":"1.000000","provenance":"illustrative offline fixture"},
+  {"currency":"EUR","usd_per_unit":"1.080000","provenance":"illustrative offline fixture"},
+  {"currency":"GBP","usd_per_unit":"1.260000","provenance":"illustrative offline fixture"}
+]

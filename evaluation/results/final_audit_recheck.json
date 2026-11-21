@@ -1,0 +1,115 @@
+{
+  "command": "python -m evaluation.scripts.benchmark --profile tiny --work .runtime/recheck --output .runtime/recheck-results",
+  "environment": {
+    "recorded_at": "2026-11-21T09:55:00.439+00:00",
+    "system": "Windows-11-10.0.26100-SP0",
+    "architecture": "AMD64",
+    "logical_processors": 4,
+    "python": "3.13.2",
+    "dependencies": {
+      "pyspark": "4.0.1",
+      "duckdb": "1.5.6",
+      "pyarrow": "23.0.1",
+      "sqlalchemy": "2.1.8",
+      "pydantic": "2.14.4",
+      "scikit-learn": "1.7.2"
+    },
+    "seed": 42,
+    "profile": "tiny",
+    "baseline_reused": false,
+    "timing_repetitions": 1
+  },
+  "batch": [
+    {
+      "profile": "tiny",
+      "run_id": "0dc65d17df4b487f944acf95b0f046a1",
+      "mode": "batch",
+      "status": "successful",
+      "input_records": "1047",
+      "new_records": "1047",
+      "accepted": "1047",
+      "rejected": "0",
+      "duration_seconds": "88.79834840001422",
+      "bronze_seconds": "2.498949500004528",
+      "silver_seconds": "84.49991189999855",
+      "gold_seconds": "1.3403994000109378",
+      "throughput_rows_per_second": "11.790759838049334",
+      "output_bytes": "79154"
+    },
+    {
+      "profile": "tiny_challenge",
+      "run_id": "3afb1e8f18d64fc8924310bf57e2cddb",
+      "mode": "batch",
+      "status": "blocked",
+      "input_records": "1048",
+      "new_records": "1048",
+      "accepted": "961",
+      "rejected": "87",
+      "duration_seconds": "16.772021999990102",
+      "bronze_seconds": "0.1438579999958165",
+      "silver_seconds": "16.35449030000018",
+      "gold_seconds": "",
+      "throughput_rows_per_second": "62.485012242448676",
+      "output_bytes": "0"
+    }
+  ],
+  "incremental_and_replay": [
+    {
+      "run_id": "4df337c31da8455dbcf9d9820ef49278",
+      "mode": "incremental",
+      "status": "successful",
+      "input_records": "1958",
+      "new_records": "911",
+      "accepted": "1958",
+      "rejected": "0",
+      "duration_seconds": "24.486453899997286",
+      "bronze_seconds": "0.13089500000933185",
+      "silver_seconds": "22.061455999995815",
+      "gold_seconds": "2.007409000012558",
+      "throughput_rows_per_second": "79.96257881996613",
+      "output_bytes": "103846",
+      "reconciled": "True"
+    },
+    {
+      "run_id": "eba881fa8c504a889ee801ddab9a6f61",
+      "mode": "batch",
+      "status": "successful",
+      "input_records": "1958",
+      "new_records": "0",
+      "accepted": "1958",
+      "rejected": "0",
+      "duration_seconds": "20.525247600016883",
+      "bronze_seconds": "0.0029510000022128224",
+      "silver_seconds": "19.514514900016366",
+      "gold_seconds": "0.8862281999900006",
+      "throughput_rows_per_second": "95.39470793026582",
+      "output_bytes": "103845",
+      "reconciled": "True"
+    },
+    {
+      "run_id": "3f834bd74f4f40e7bea315ba1a864998",
+      "mode": "incremental",
+      "status": "successful",
+      "input_records": "0",
+      "new_records": "0",
+      "accepted": "0",
+      "rejected": "0",
+      "duration_seconds": "0.0676361000223551",
+      "bronze_seconds": "0.003108600008999929",
+      "silver_seconds": "",
+      "gold_seconds": "",
+      "throughput_rows_per_second": "",
+      "output_bytes": "0",
+      "reconciled": "True"
+    }
+  ],
+  "reliability": {
+    "unchanged_source_noop": true,
+    "batch_replay_reconciles_after_incremental": true,
+    "critical_gate_blocked": true,
+    "interrupted_process_recovery": "not run",
+    "late_arrival_retention": "incremental source times overlap test window; labeled lateness not separately asserted",
+    "baseline_revenue_usd": "111989.64",
+    "incremental_revenue_usd": "219473.92"
+  }
+}
